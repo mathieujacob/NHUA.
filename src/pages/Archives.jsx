@@ -9,10 +9,10 @@ const Archives = () => {
          <hr></hr>
       <div>
       <p class="title"> Cover</p> 
-      <div class="archive-main">
-     <img class="image-archive" src="./images/SlaveToMyThoughtsCover.jpg" alt="nhua" />
-     <img class="image-archive" src="./images/FlowerBloomCover.jpg" alt="nhua" />
-     <img class="image-archive" src="./images/FrenchFlowCover.jpg" alt="nhua" />
+      <div class="archive-main2">
+     <a href="/Archive/slave"><img class="image-archive" src="./images/SlaveToMyThoughtsCover.jpg" alt="nhua" /></a>
+     <a href="/Archive/flowerbloom"><img class="image-archive" src="./images/FlowerBloomCover.jpg" alt="nhua" /></a>
+     <a href="/Archive/frenchflow"><img class="image-archive" src="./images/FrenchFlowCover.jpg" alt="nhua" /></a>
       </div>
       </div>
       <hr></hr>

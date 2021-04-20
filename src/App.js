@@ -5,6 +5,8 @@ import AboutUs from "./pages/AboutUs.jsx"
 import Archive from "./pages/Archives.jsx"
 import Contact from "./pages/Contact.jsx"
 import Slave from "./pages/Slave.jsx"
+import FlowerBloom from "./pages/FlowerBloom.jsx"
+import FrenchFlow from "./pages/FrenchFlow.jsx"
 import Footer from "./components/Footer"
 import './App.css';
 import React from "react";
@@ -14,7 +16,7 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <div class="up"> <img class="Color-palette" src="./images/ColorSchem.png" alt="nhua" /></div>
+      {/* <div class="up"> <img class="Color-palette" src="./images/ColorSchem.png" alt="nhua" /></div> */}
       <header>
      
       <Navmain/>
@@ -30,6 +32,8 @@ function App() {
       </Switch>
       <div>
       <Route exact path="/Archive/Slave" component={Slave} />
+      <Route exact path="/Archive/FlowerBloom" component={FlowerBloom} />
+      <Route exact path="/Archive/FrenchFlow" component={FrenchFlow} />
       </div>
      <Footer/>
    
