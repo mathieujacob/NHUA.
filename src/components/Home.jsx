@@ -8,7 +8,7 @@ const Home = () => {
 
     <div className="Home">
       <img class="image-home" src="./images/LogoWeb.png" alt="nhua" />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
 
 

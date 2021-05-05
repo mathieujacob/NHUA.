@@ -10,7 +10,7 @@ const Contact = () => {
 <img class="logo-brush" src="./images/Logo-brush.png" alt="nhua" />
 <a href = "mailto: newhorizonsutd@gmail.com">Contact A Member Of Our Team Here</a>
 
-   <Footer/>
+   
 
     </div>
   );

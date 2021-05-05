@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div>
    <img class="image-aboutus" src="./images/Aboutus.png" alt="nhua" />
   
-   <Footer/>
+
 
     </div>
   );

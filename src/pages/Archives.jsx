@@ -31,7 +31,7 @@ const Archives = () => {
       <img class="image-archive" src="./images/Graphic13.jpg" alt="nhua" />
       <img class="image-archive" src="./images/Graphic14.jpg" alt="nhua" />
       <div>
-        <Footer/>
+
       </div>
     </div>
     </div>
